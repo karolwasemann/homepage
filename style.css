@@ -1,0 +1,32 @@
+body {
+    background-color: #fefefe;
+}
+
+img {
+    height: 300px;
+}
+
+.header-nav {
+    background-color: #7d4e57;
+    color: #fefefe;
+}
+
+.main-heading {
+    color: #7d4e57;
+}
+
+.secondary-heading {
+    color: #212d40;
+}
+
+.articel-heading {
+    color: #364156;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    background-color: #7d4e57;
+    color: #fefefe;
+    text-align: center;
+}
