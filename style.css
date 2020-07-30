@@ -8,7 +8,9 @@ img {
 
 .header-nav {
     color: #B33951;
-    background-color: #91C7B1;
+    font-size: 26px;
+    text-decoration: none;
+    padding: 10px 15px;
 }
 
 .main-heading {
