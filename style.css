@@ -1,19 +1,35 @@
 body {
     background-color: #fefefe;
+    height: 150vh;
 }
 
-img {
-    height: 300px;
+.img {
+    height: 150px;
+    float: left;
+    margin: 10px 15px;
 }
+
+.nav {
+    width: 100%;
+    background: #bfbdc1;
+    position: fixed;
+    top: 6px;
+
+}
+
+/* .main-header {
+    margin: 45px auto;
+} */
 
 .header-nav {
-    color: #B33951;
+    color: #37323E;
     font-size: 26px;
     text-decoration: none;
     padding: 10px 15px;
 }
 
 .main-heading {
+    margin: 45px auto 10px;
     color: #7d4e57;
 }
 
@@ -26,6 +42,7 @@ img {
 }
 
 .footer {
+    margin: 20px auto;
     width: 100%;
     padding: 10px;
     background-color: #7d4e57;
