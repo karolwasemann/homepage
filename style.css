@@ -1,49 +1,47 @@
 body {
-    background-color: #fefefe;
-    height: 150vh;
+  background-color: #fefefe;
+  height: 150vh;
 }
 
 .img {
-    height: 150px;
-    float: left;
-    margin: 10px 15px;
-    border-radius: 30%;
+  height: 150px;
+  float: left;
+  margin: 10px 15px;
+  border-radius: 30%;
 }
 
 .nav {
-    width: 100%;
-    background: #bfbdc1;
-    position: fixed;
-    top: 6px;
-
+  width: 100%;
+  background: #bfbdc1;
+  position: fixed;
+  top: 6px;
 }
 
-
 .header-nav {
-    color: #37323E;
-    font-size: 26px;
-    text-decoration: none;
-    padding: 10px 15px;
+  color: #37323e;
+  font-size: 26px;
+  text-decoration: none;
+  padding: 10px 15px;
 }
 
 .main-heading {
-    margin: 45px auto 10px;
-    color: #7d4e57;
+  margin: 45px auto 10px;
+  color: #7d4e57;
 }
 
 .secondary-heading {
-    color: #212d40;
+  color: #212d40;
 }
 
 .articel-heading {
-    color: #364156;
+  color: #364156;
 }
 
 .footer {
-    margin: 20px auto;
-    width: 100%;
-    padding: 10px;
-    background-color: #7d4e57;
-    color: #fefefe;
-    text-align: center;
+  margin: 20px auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #7d4e57;
+  color: #fefefe;
+  text-align: center;
 }
