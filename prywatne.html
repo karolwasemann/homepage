@@ -8,29 +8,33 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav">
-        <a class="header-nav" href="index.html">Strona główna</a>
-        <a class="header-nav" href="prywatne.html">Prywatne</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="prywatne.html">Prywatne</a>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <header class="main-header">
-        <h1 class="main-heading">Prywatny notatnik</h1>
-        <img class="img" src="zAlbim.jpeg" alt="Moje zdjęcie z psem" />
+        <h1 class="main-header__title">Prywatny notatnik</h1>
+        <img
+          class="main-header__image"
+          src="zAlbim.jpeg"
+          alt="Moje zdjęcie z psem"
+        />
       </header>
-      <section>
-        <h2 class="secondary-heading">Trudności</h2>
-        <article>
-          <h3 class="articel-heading">Co ten Treminal</h3>
-          <p>
+      <section class="articles">
+        <h2 class="articles__heading">Trudności</h2>
+        <article class="article">
+          <h3 class="article__title">Co ten Treminal</h3>
+          <p class="article__description">
             Tutaj będę opisywał swoję problemy z jakimiś zagarnieniami, dzisiaj
             czas na Terminal w Windows
           </p>
         </article>
-        <article>
-          <h3 class="articel-heading">Float i position</h3>
-          <p>
+        <article class="article">
+          <h3 class="article__title">Float i position</h3>
+          <p class="article__description">
             No i zaczynają się nie małe schody ze zrozumieniem wszystkich
             własności float'a, potrafi on nieźle namieszać narazie mam zamiar
             używać go jedynie do zdjęć. Na plus za to działa position za pomocą
