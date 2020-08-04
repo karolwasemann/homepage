@@ -10,3 +10,7 @@ console.log(
     age + years
   } lat/a.`
 );
+
+const heading = document.querySelector(".article__title--js");
+
+heading.innerHTML = "JEST GIT <span>Tutaj jest span </span>";
