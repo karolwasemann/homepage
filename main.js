@@ -11,6 +11,8 @@ console.log(
   } lat/a.`
 );
 
+// dodanie pustego paragrafu i wypełnienie go
+
 const heading = document.querySelector(".article__title--js");
 const emptyParagraph = document.querySelector(".article_description--js");
 

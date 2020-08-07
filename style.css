@@ -38,10 +38,11 @@ body {
 }
 
 .main-header__image {
-  height: 150px;
+  width: 120px;
   float: left;
-  margin: 10px 15px;
+  margin: 34px 30px;
   border-radius: 30%;
+  box-sizing: border-box;
 }
 
 .articles__heading {
@@ -60,4 +61,13 @@ body {
   background-color: #7d4e57;
   color: #fefefe;
   text-align: center;
+}
+
+.list {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.list__item {
+  margin: 4px 4px 0 0;
 }
