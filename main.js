@@ -4,19 +4,25 @@ let years = 3;
 const futureAge = age + years;
 
 // Powitanie
-const myName = "Karol";
-const born = 1995;
-const future = 2035;
+
+karolAge = {
+  age: 25,
+  myName: "Karol",
+  born: 1995,
+  future: 2035,
+};
 
 function Hello(myName, age, future, born) {
   console.log(
-    `Witaj użytkowniku jestem ${myName}obencie mam ${age} ale już w ${future} będę miał ${
-      future - born
+    `Witaj użytkowniku jestem ${karolAge.myName} obencie mam ${
+      karolAge.age
+    } ale już w ${karolAge.future} będę miał ${
+      karolAge.future - karolAge.born
     }lat `
   );
 }
 
-Hello(myName, age, future, born);
+Hello(karolAge.myName, karolAge.age, karolAge.future, karolAge.born);
 
 // dodanie pustego paragrafu i wypełnienie go
 
