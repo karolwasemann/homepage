@@ -1,15 +1,22 @@
-`alert('Siemano!')`;
-
 const firstName = "Karol";
 const age = 25;
 let years = 3;
 const futureAge = age + years;
 
-console.log(
-  `Cześć nazywam się ${firstName} obecnie mam ${age}lat ale za ${years} lata będę miał już ${
-    age + years
-  } lat/a.`
-);
+// Powitanie
+const myName = "Karol";
+const born = 1995;
+const future = 2035;
+
+function Hello(myName, age, future, born) {
+  console.log(
+    `Witaj użytkowniku jestem ${myName}obencie mam ${age} ale już w ${future} będę miał ${
+      future - born
+    }lat `
+  );
+}
+
+Hello(myName, age, future, born);
 
 // dodanie pustego paragrafu i wypełnienie go
 
