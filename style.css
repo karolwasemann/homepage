@@ -1,5 +1,7 @@
 body {
-  background-color: #fefefe;
+  background-color: #fff5ff;
+  background-image: linear-gradient(208deg, #fff5ff 0%, #a9bcbf 100%);
+
   height: 150vh;
   margin: 0;
 }
@@ -7,20 +9,21 @@ body {
   background: #837d8a;
 }
 .navigation {
+  display: flex;
+  justify-content: space-evenly;
   width: 80%;
   top: 6px;
   left: 10%;
   right: 10%;
   position: fixed;
   background: #bfbdc1;
+  padding: 4px;
 }
 
 .navigation__link {
   color: #37323e;
   font-size: 26px;
   text-decoration: none;
-  padding: 10px 15px;
-  margin-right: 10px;
 }
 
 .main {
