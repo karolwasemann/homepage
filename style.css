@@ -71,6 +71,10 @@ body {
   list-style: none;
 }
 
+.list__title {
+  margin: 10px 0 0 0;
+}
+
 .list__item {
   margin: 4px 4px 0 0;
 }

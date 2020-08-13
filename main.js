@@ -26,11 +26,11 @@ Hello(karolAge.myName, karolAge.age, karolAge.future, karolAge.born);
 
 // dodanie pustego paragrafu i wypełnienie go
 
-const heading = document.querySelector(".article__title--js");
-const emptyParagraph = document.querySelector(".article_description--js");
+// const heading = document.querySelector(".article__title--js");
+// const emptyParagraph = document.querySelector(".article_description--js");
 
-heading.innerHTML = "JEST GIT <span>Tutaj jest span </span>";
-emptyParagraph.innerHTML = `Pusty paragraf wypełniony JS-em ;)`;
+// heading.innerHTML = "JEST GIT <span>Tutaj jest span </span>";
+// emptyParagraph.innerHTML = `Pusty paragraf wypełniony JS-em ;)`;
 
 // Kalkluator moje przyszłego wieku
 
@@ -41,12 +41,12 @@ calculate(age, years);
 
 // zmiana contentu funkcja
 
-function createContent(querySelectorContent, content) {
-  element = document.querySelector(querySelectorContent);
-  element.innerHTML = content;
-}
+// function createContent(querySelectorContent, content) {
+//   element = document.querySelector(querySelectorContent);
+//   element.innerHTML = content;
+// }
 
-createContent(
-  ".main-header__title--js",
-  "Nowy content wcześniej Prywatny notatnik"
-);
+// createContent(
+//   ".main-header__title--js",
+//   "Nowy content wcześniej Prywatny notatnik"
+// );
