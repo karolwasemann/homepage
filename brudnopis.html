@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-gird.css" />
   </head>
 
   <body>
@@ -21,46 +21,48 @@
         <h1 class="main-header__title">
           Mój brudnopis!
         </h1>
-        <img
-          class="main-header__image"
-          src="zAlbim.jpeg"
-          alt="Moje zdjęcie z psem"
-        />
       </header>
-      <section class="articles"></section>
-      <h2 class="articles__heading">Opis oraz testowanie nowinek</h2>
-      <article class="article"></article>
-      <h3 class="article title">Opis nowych znaczników HTML-a</h3>
-      <ul class="list">
-        <h4 class="list__title">Poznane znaczniki</h4>
-        <li class="list__item">ul - Lista nieuporządkowana</li>
-        <li class="list__item">ol - Lista uporządkowana</li>
-        <li class="list__item">li - List item</li>
-        <li class="list__item">dl - description list</li>
-        <li class="list__item">dt - description term</li>
-        <li class="list__item">dd - description details</li>
-      </ul>
-
-      <article class="article"></article>
-      <h3 class="article title">Znaczniki formularzy</h3>
-      <ul class="list">
-        <h4 class="list__title">Poznane znaczniki</h4>
-        <li class="list__item">form - to opakowanie formularza</li>
-        <li class="list__item">
-          input - pole do wpisywania lub zaznaczania powieno być opakowane w
-          znacznik p
-        </li>
-        <li class="list__item">label - opis pola</li>
-        <li class="list__item">fieldset - grupowanie</li>
-        <li class="list__item">legend - opis grupy</li>
-        <ul class="list">
-          <h4 class="list__title">Type w input</h4>
-          <li class="list__item">name</li>
-          <li class="list__item">id</li>
-          <li class="list__item">radio</li>
-          <li class="list__item">checkbox</li>
-        </ul>
-      </ul>
+      <img
+        class="main-header__image"
+        src="zAlbim.jpeg"
+        alt="Moje zdjęcie z psem"
+      />
+      <section class="articles">
+        <h2 class="articles__heading">Opis oraz testowanie nowinek</h2>
+        <article class="article">
+          <h3 class="article__title">Opis nowych znaczników HTML-a</h3>
+          <ul class="list">
+            <li class="list__item">ul - Lista nieuporządkowana</li>
+            <li class="list__item">ol - Lista uporządkowana</li>
+            <li class="list__item">li - List item</li>
+            <li class="list__item">dl - description list</li>
+            <li class="list__item">dt - description term</li>
+            <li class="list__item">dd - description details</li>
+          </ul>
+        </article>
+        <article class="article">
+          <h3 class="article__title">Znaczniki formularzy</h3>
+          <ul class="list">
+            <li class="list__item">form - to opakowanie formularza</li>
+            <li class="list__item">
+              input - pole do wpisywania lub zaznaczania powieno być opakowane w
+              znacznik p
+            </li>
+            <li class="list__item">label - opis pola</li>
+            <li class="list__item">fieldset - grupowanie</li>
+            <li class="list__item">legend - opis grupy</li>
+          </ul>
+        </article>
+        <article class="article">
+          <h3 class="article__title">Wartości Inputa</h3>
+          <ul class="list">
+            <li class="list__item">name</li>
+            <li class="list__item">id</li>
+            <li class="list__item">radio</li>
+            <li class="list__item">checkbox</li>
+          </ul>
+        </article>
+      </section>
     </main>
     <footer class="footer">Notatnik programisty</footer>
     <script src="main.js"></script>
