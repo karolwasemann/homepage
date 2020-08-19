@@ -24,29 +24,12 @@ function Hello(myName, age, future, born) {
 
 Hello(karolAge.myName, karolAge.age, karolAge.future, karolAge.born);
 
-// dodanie pustego paragrafu i wypełnienie go
+//Hamburger
 
-const heading = document.querySelector(".article__title--js");
-const emptyParagraph = document.querySelector(".article_description--js");
+const hamburger = document.querySelector(".hamburger--js");
 
-heading.innerHTML = "JEST GIT <span>Tutaj jest span </span>";
-emptyParagraph.innerHTML = `Pusty paragraf wypełniony JS-em ;)`;
-
-// Kalkluator moje przyszłego wieku
-
-function calculate(age, years) {
-  console.log(`Teraz mam ${age} ale za ${years} będę miał ${age + years}`);
-}
-calculate(age, years);
-
-// zmiana contentu funkcja
-
-function createContent(querySelectorContent, content) {
-  element = document.querySelector(querySelectorContent);
-  element.innerHTML = content;
-}
-
-createContent(
-  ".main-header__title--js",
-  "Nowy content wcześniej Prywatny notatnik"
-);
+hamburger.addEventListener("click", () => {
+  console.log("działa");
+  const nav = document.querySelector(".navigation--js");
+  nav.classList.toggle("navigation--open");
+});

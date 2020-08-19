@@ -73,6 +73,10 @@ body {
   margin: 4px 4px 0 0;
 }
 
+.hamburger {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .navigation {
     display: grid;
@@ -94,7 +98,7 @@ body {
   /* Main */
 
   .main {
-    margin: 110px 0 0 0;
+    margin: 40px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 120px;
 
@@ -120,5 +124,20 @@ body {
 
   .articles {
     grid-area: section;
+  }
+
+  /* hamburger */
+  .hamburger {
+    display: block;
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: none;
+    background: none;
+  }
+
+  .navigation--open {
+    display: none;
   }
 }
