@@ -53,9 +53,9 @@
       </section>
     </main>
     <section class="info">
-      <h1 class="info__title">////////</h1>
-      <form class="form" action="#">
-        <p>
+      <h1 class="info__title">Formularz!</h1>
+      <form class="form" action="#" method="POST">
+        <p class="form__item">
           <label class="form__label" for="firstName">Your name:</label>
           <input
             class="form__input"
@@ -65,7 +65,7 @@
             placeholder="Please enter your first name"
           />
         </p>
-        <p>
+        <p class="form__item">
           <label class="form__label" for="lastName">Your last name:</label>
           <input
             class="form__input"
@@ -75,7 +75,7 @@
             placeholder="Please enter your last name"
           />
         </p>
-        <p>
+        <p class="form__item">
           <label class="form__label" for="phoneNumber"
             >Your phone number:</label
           >
@@ -87,7 +87,7 @@
             placeholder="Please enter your phone number"
           />
         </p>
-        <p>
+        <p class="form__item">
           <label class="form__label" for="email">Your e-mail:</label>
           <input
             class="form__input"
@@ -97,9 +97,9 @@
             placeholder="Please enter your e-mail"
           />
         </p>
-        <fieldset>
+        <fieldset class="form__fieldset">
           <legend>Your Address</legend>
-          <p>
+          <p class="form__item">
             <label class="form__label" for="street">Your street</label>
             <input
               class="form__input"
@@ -109,7 +109,7 @@
               placeholder="Please enter your street"
             />
           </p>
-          <p>
+          <p class="form__item">
             <label class="form__label" for="city">Your city</label>
             <input
               class="form__input"
@@ -119,7 +119,7 @@
               placeholder="Please enter your city"
             />
           </p>
-          <p>
+          <p class="form__item">
             <label class="form__label" for="plz">Your PLZ</label>
             <input
               class="form__input"
@@ -131,6 +131,14 @@
             />
           </p>
         </fieldset>
+        <p class="form_item from__item--submit">
+          <input
+            class="form__input form__input--submit"
+            type="submit"
+            name="submit"
+            value="send"
+          />
+        </p>
       </form>
     </section>
     <footer class="footer">Notatnik programisty</footer>
