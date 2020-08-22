@@ -54,10 +54,17 @@
     </main>
     <section class="info">
       <h1 class="info__title">Formularz!</h1>
-      <form class="form" action="#" method="POST">
+      <form
+        class="form"
+        action="https://dev.cotenfrontend.pl"
+        method="POST"
+        name="Karol"
+        riddle="cotenfrontend"
+      >
         <p class="form__item">
           <label class="form__label" for="firstName">Your name:</label>
           <input
+            required
             class="form__input"
             type="text"
             name="firstName"
@@ -68,6 +75,7 @@
         <p class="form__item">
           <label class="form__label" for="lastName">Your last name:</label>
           <input
+            required
             class="form__input"
             type="text"
             name="lastName"
@@ -123,7 +131,7 @@
             <label class="form__label" for="plz">Your PLZ</label>
             <input
               class="form__input"
-              pattern="[a-zA-z0-9]+"
+              pattern="[a-zA-Z0-9]+"
               type="plz"
               name="plz"
               id="plz"
