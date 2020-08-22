@@ -36,7 +36,7 @@
             Dzisiaj poznałem jedynie podstawy oraz zasady programowania. Będę
             tworzył ten notatnik codziennie w celu utrwalania dobrych nawyków w
             HTML. Mam nadzieję że to przybliży mnie to do celu oraz posłuży jako
-            notatnik z mojej podróży.
+            notatnik z mojej podróży. TO...
           </p>
         </article>
         <article class="article">
@@ -52,6 +52,87 @@
         </article>
       </section>
     </main>
+    <section class="info">
+      <h1 class="info__title">////////</h1>
+      <form class="form" action="#">
+        <p>
+          <label class="form__label" for="firstName">Your name:</label>
+          <input
+            class="form__input"
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Please enter your first name"
+          />
+        </p>
+        <p>
+          <label class="form__label" for="lastName">Your last name:</label>
+          <input
+            class="form__input"
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Please enter your last name"
+          />
+        </p>
+        <p>
+          <label class="form__label" for="phoneNumber"
+            >Your phone number:</label
+          >
+          <input
+            class="form__input"
+            type="tel"
+            name="phoneNumber"
+            id="phoneNumber"
+            placeholder="Please enter your phone number"
+          />
+        </p>
+        <p>
+          <label class="form__label" for="email">Your e-mail:</label>
+          <input
+            class="form__input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Please enter your e-mail"
+          />
+        </p>
+        <fieldset>
+          <legend>Your Address</legend>
+          <p>
+            <label class="form__label" for="street">Your street</label>
+            <input
+              class="form__input"
+              type="text"
+              name="street"
+              id="street"
+              placeholder="Please enter your street"
+            />
+          </p>
+          <p>
+            <label class="form__label" for="city">Your city</label>
+            <input
+              class="form__input"
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Please enter your city"
+            />
+          </p>
+          <p>
+            <label class="form__label" for="plz">Your PLZ</label>
+            <input
+              class="form__input"
+              pattern="[a-zA-z0-9]+"
+              type="plz"
+              name="plz"
+              id="plz"
+              placeholder="Please enter your city"
+            />
+          </p>
+        </fieldset>
+      </form>
+    </section>
     <footer class="footer">Notatnik programisty</footer>
     <script src="main.js"></script>
   </body>

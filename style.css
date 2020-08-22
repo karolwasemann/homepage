@@ -76,6 +76,20 @@ body {
   display: none;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+}
+
+p {
+  display: grid;
+}
+
 @media (max-width: 767px) {
   .navigation {
     display: grid;
