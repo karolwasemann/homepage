@@ -66,6 +66,15 @@ body {
 
     &__title {
         color: #7d4e57;
+
+        &::before {
+            content: "💻";
+        }
+
+        &::after {
+            content: "💻";
+        }
+
     }
 
     &__image {
@@ -90,8 +99,8 @@ body {
         }
 
     }
-
 }
+
 
 .articles {
     @media(max-width: 767px) {

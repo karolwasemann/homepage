@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #fff5ff;
   background-image: linear-gradient(208deg, #fff5ff 0%, #a9bcbf 100%);
@@ -51,6 +52,10 @@ body {
   margin: 45px auto 10px; }
   .main-header__title {
     color: #7d4e57; }
+    .main-header__title::before {
+      content: "💻"; }
+    .main-header__title::after {
+      content: "💻"; }
   .main-header__image {
     width: 120px;
     float: left;
